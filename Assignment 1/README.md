@@ -1,4 +1,5 @@
 INTRODUCTION
+
 The problem: We are trying to find the cheapest diet consisting of only 5 products that satisfies all of the following nutritional constraints:
 - No more than 5000mg of sodium
 - No less than 2000kcals of energy/calories
@@ -7,6 +8,7 @@ The problem: We are trying to find the cheapest diet consisting of only 5 produc
 - No less than 1300mg of calcium
 - No less than 18mg of iron
 - No less than 4700mg of potassium 
+
 ----------------------------------------------
 PRODUCTS + NUTRITION VALUES
 
@@ -29,6 +31,7 @@ Nutrients per serving: Sodium: 200 mg, Energy: 340 kcals, Protein: 9 g, Vitamin 
 Item 5: Champs Elysées Salad Mix
 Cost per serving: $2.29 / 2 = $1.15
 Nutrients per serving: Sodium: 25 mg, Energy: 15 kcals, Protein: 1 g, Vitamin D: 0 mcg, Calcium: 30 mg, Iron: 1 mg, Potassium: 190 mg
+
 ----------------------------------------------
 THE LP PROBLEM
 
@@ -51,6 +54,8 @@ b = Number of of rice orzo pilaf mix servings
 c = Number of stir-fried cabbage servings
 d = Number of mango smoothie servings
 e = Number of champs elysées salad mix servings
+
 ----------------------------------------------
 RESULTS
+
 The solution for this problem is to eat AS = 1.613 servings of Atlantic salmon and 21.667 servings of grainless granola, which would cost $25.62 per day. In total, one would get 4438mg of sodium, 7754kcals of energy, 232g of protein, 20mcg of vitamin D, 1300mg of calcium, 55mg of iron, 8245mg of potassium.
