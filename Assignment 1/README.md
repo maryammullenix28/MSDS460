@@ -39,21 +39,21 @@ Objective
 Minimize C = 3.12AS + 0.83R + 1.75C + 0.95G + 1.15S
 
 Constraints
-Sodium: 65AS + 670R + 620R + 200G + 25S + S1 = 5000
-Energy: 240AS + 240R + 130C + 340G + 15S - S2 = 2000
-Protein: 23AS + 7R + 3C + 9G + 1S - S3 = 50
-Vitamin D: 12.4AS + 0R + 0C + 0G + 0S  - S4 = 20
-Calcium:  0AS + 10R + 50C + 60G + 30S - S5 = 1300
-Iron:  0.4AS + 2R + 0.5C + 2.5G + 1S - S6 = 18
-Potassium:  410AS + 174R + 350C + 350G + 190S - S7 = 4700
-AS, R, C, G, S, S1, S2, S3, S4, S5, S6, S7 >= 0
+- Sodium: 65AS + 670R + 620R + 200G + 25S + S1 = 5000
+- Energy: 240AS + 240R + 130C + 340G + 15S - S2 = 2000
+- Protein: 23AS + 7R + 3C + 9G + 1S - S3 = 50
+- Vitamin D: 12.4AS + 0R + 0C + 0G + 0S  - S4 = 20
+- Calcium:  0AS + 10R + 50C + 60G + 30S - S5 = 1300
+- Iron:  0.4AS + 2R + 0.5C + 2.5G + 1S - S6 = 18
+- Potassium:  410AS + 174R + 350C + 350G + 190S - S7 = 4700
+- AS, R, C, G, S, S1, S2, S3, S4, S5, S6, S7 >= 0
 
 Decisions variables: 
-a = Number of atlantic salmon filet servings
-b = Number of of rice orzo pilaf mix servings
-c = Number of stir-fried cabbage servings
-d = Number of mango smoothie servings
-e = Number of champs elysées salad mix servings
+- a = Number of atlantic salmon filet servings
+- b = Number of of rice orzo pilaf mix servings
+- c = Number of stir-fried cabbage servings
+- d = Number of mango smoothie servings
+- e = Number of champs elysées salad mix servings
 
 ----------------------------------------------
 RESULTS
